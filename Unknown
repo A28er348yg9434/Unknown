@@ -1138,7 +1138,7 @@ local AntiLogs = false
 
 -- Noob detector and welcome/leave message
 local noobdetect = true
-local welcomemsg = true
+local welcomemsg = false
 
 -- shh
 thesecretvariable = true
@@ -10738,8 +10738,8 @@ end
 
 function onPlayerLeaving(player)
     task.wait(0)
-    if welcomemsg == true then
-             Chat("h \n\n\n Goodbye, " .. player.Name .. ". \n\n\n")
+    if welcomemsg == false then
+             Chat("h \n\n\n ゘゘゘゘゘゘゘, " .. player.Name .. ". \n\n\n")
              print(player.Name.." left the server.")
              Remind(player.Name.." left the server.")
     end
@@ -11178,7 +11178,7 @@ function Laser()
 		Remind("Command may not work since firetouchinterest is not supported by your executor.")
 	    end
 	
-            local goodbye = false
+            local ゘゘゘゘゘゘゘ = false
             local kahcon
             local kahcon2
 
@@ -11188,14 +11188,14 @@ function Laser()
                         repeat task.wait() 
                             firetouchinterest(Child, laman.Character.HumanoidRootPart, 0)
                             firetouchinterest(Child, laman.Character.HumanoidRootPart, 1)
-                        until Child.Parent ~= workspace or goodbye or not kahcon
+                        until Child.Parent ~= workspace or ゘゘゘゘゘゘゘ or not kahcon
                     end)
                 end
             end)
 
             kahcon2 = laman.Character.HumanoidRootPart.ChildAdded:Connect(function(Child)
-                if Child.Name == "SelectionBox" and not goodbye then
-                    goodbye = true
+                if Child.Name == "SelectionBox" and not ゘゘゘゘゘゘゘ then
+                    ゘゘゘゘゘゘゘ = true
                     Chat("punish " .. laserman)
                 end
             end)
@@ -11207,7 +11207,7 @@ function Laser()
             task.wait()
             Laser.Parent = game.Players.LocalPlayer.Character
             Server:InvokeServer("Click", true, laman.Character.HumanoidRootPart.Position)
-            repeat task.wait() until goodbye
+            repeat task.wait() until ゘゘゘゘゘゘゘
             kahcon:Disconnect()
             kahcon2:Disconnect()
 end
