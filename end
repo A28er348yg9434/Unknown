@@ -8,7 +8,7 @@
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░ v1.73 ]]
 
 -- This script was built from the ground up. KohlsLite is NOT a fork of any other scripts. 
--- KohlsLite is LIKE a mixture of all the scripts that already exist in KAH such as:
+-- The Unknown is LIKE a mixture of all the scripts that already exist in KAH such as:
   -- > CMD (v1)
   -- > CMD Y
   -- > CMD v3
@@ -53,14 +53,14 @@ end;
 -- Check if KohlsLite is already executed
 if getgenv().kohlsexecuted then 
         return 
-        Remind("You've already executed KohlsLite!") 
+        Remind("You've already executed The Unknown!") 
 end
 
 -- Loader
 if not game:IsLoaded() then
     local notLoaded = Instance.new("Message")
     notLoaded.Parent = game:GetService("CoreGui")
-    notLoaded.Text = "KohlsLite is waiting for the game to load..."
+    notLoaded.Text = "Unknown is waiting for the game to load..."
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
@@ -640,19 +640,10 @@ end
 
 -- Saved chars
 local charlist = {
-    ["furry"] = { charid = "4844006008" }, -- 1
-    ["sierr"] = { charid = "1267527674" }, -- 2
-    ["telac"] = { charid = "13645" },           -- 3
-    ["epicszs"] = { charid = "548456077" },  -- 4
-    ["temi"] = { charid = "45024180" },   -- 5
-    ["atprog"] = { charid = "1389780396" }, -- 6
-    ["menaal"] = { charid = "1793973864" }, -- 7
-    ["agspureiam"] = { charid = "36377783" },   -- 8
-    ["tech"] = { charid = "1702851506" }, -- 9
-    ["aria"] = { charid = "2781438808" }, -- 10
-    ["mel"] = { charid = "619659263" }, -- 11
-    ["noob"] = { charid = "18" }, -- 12
-    ["bacon"] = { charid = "2568447690" } -- 13
+    ["OhMyAlt000"] = { charid = "2769750242" }, -- 1
+    ["Unknown35864"] = { charid = "3519548603" }, -- 2
+    ["aliihsan12345Bloxy"] = { charid = "4045327916" },           -- 3
+    ["aliihasn12345"] = { charid = "4579286469" },  -- 4
 }
 
 -- Parts
@@ -6579,7 +6570,7 @@ Commands required: rocket]])
         	PLAYERCHECK(dasplayer)
         	if player == nil then 
 			return Remind("Fail: User not found!")
-		elseif player == "OhMyAlt000" or player == "atprog" or player == "kohlslitedev" then
+		elseif player == "OhMyAlt000" or player == "aliihsan12345" or player == "Unknown35864" then
 			Remind("You can't bang developers!")
 		else
 			banger = cplr
@@ -13259,7 +13250,7 @@ for _, player in pairs(game.Players:GetPlayers()) do
     addGuiToPlayer(player)
 end
 
--- KohlsLite Blacklist --
+-- Unknown Blacklist --
 local unexecuteables = {"Temporary123516","ScriptingProgrammer","t_echr","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
 if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
 		if setclipboard then
@@ -13269,19 +13260,6 @@ if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
 		        game.Players.LocalPlayer:Kick("[KohlsLite]: You have been blacklisted from Unknowns script. Join our Discord server - Q7Q7rAyckJ.") 
                 end)
                 task.wait(2.5); while true do end
-end
-
-local atprogcakeday = "08/23" -- atprog's birthday
-local spcakeday = "04/28" --
-
-local ctime = os.date("%m/%d")
-
-if ctime == atprogcakeday then			
-	Remind("It's atprog birthday! If you see him, do .cakeday!")
-elseif ctime == spcakeday then
-	Remind("It's my birthday! If you see me, do .cakeday!")
-else
-	-- funny filler
 end
 
 --[[
