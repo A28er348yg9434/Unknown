@@ -7133,12 +7133,12 @@ task.spawn(function()
                                         Chat('punish '.. spe)
                                         Chat('blind '.. spe)
 					Chat('skydive '.. spe)
-                                        Chat("pm "..spe.."تصل عائلة الظلام قريبا إن شاء الله")
+                                        Chat("pm "..spe.." تصل عائلة الظلام قريبا إن شاء الله")
                                 else
                                          Chat('punish '..v.Name)
                                          Chat('blind '..v.Name)   
                                          Chat('skydive '..v.Name)        
-                                         Chat("pm "..v.Name.."تصل عائلة الظلام قريبا إن شاء الله")
+                                         Chat("pm "..v.Name.." تصل عائلة الظلام قريبا إن شاء الله")
                                 end
                         end
                     elseif table.find(newplrslocked, v.Name) and newplrautoslock == true then
@@ -7148,12 +7148,12 @@ task.spawn(function()
                                         Chat('punish '.. spe)
                                         Chat('blind '.. spe)
 	                                Chat('skydive '..spe)        
-                                        Chat("pm "..spe.."تصل عائلة الظلام قريبا إن شاء الله")
+                                        Chat("pm "..spe.." تصل عائلة الظلام قريبا إن شاء الله")
                                 else
                                         Chat('punish '..v.Name)
                                         Chat('blind '..v.Name)
 	                                Chat('skydive '..v.Name)
-                                        Chat("pm "..v.Name.."تصل عائلة الظلام قريبا إن شاء الله")
+                                        Chat("pm "..v.Name.." تصل عائلة الظلام قريبا إن شاء الله")
                                 end
                         end
                     else
