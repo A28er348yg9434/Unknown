@@ -29,7 +29,7 @@
 
 -- This free, open-source script is for the Roblox game Kohls Admin House (KAH)
 -- You can play KAH here: https://www.roblox.com/games/112420803/Kohls-Admin-House-NBC-Updated
--- Created by ScriptingProgrammer (Roblox) / ts2021 (Discord) / S-PScripts (GitHub)
+-- Created by aliihsan12345 (Roblox) / ts2021 (Discord) / S-PScripts (GitHub)
 
 -- There are no more watermarks in this script.
 
@@ -198,7 +198,8 @@ local blacklist = {
     "cihanahmet1670",
     "Fu14r",
     "bbgurrrrl",
-    "He4rt_4",
+    "t_echr",
+    "ScriptingProgrammer"
 }
 
 -- Users not affected by serverlock
@@ -208,8 +209,7 @@ local whitelist = {}
 local pwl = {
     "me_123eq",
     "me_crashking",
-    "ScriptingProgrammer",
-    "t_echr",
+    "OhMyAlt000",
     "BANNter_Original",
     "witnessfox22",
     "IceStuds",
@@ -258,8 +258,8 @@ local pwl = {
 local nokick = {
     "me_123eq",
     "me_crashking",
-    "ScriptingProgrammer",
-    "t_echr",
+    "OhMyAlt000",
+    "aliihsan12345Bloxy",
     "BANNter_Original",
     "witnessfox22",
     "IceStuds",
@@ -307,7 +307,7 @@ local nokick = {
 local specialperms = {
     "me_123eq",
     "me_crashking",
-    "ScriptingProgrammer",
+    "aliihsan12345Bloxy",
     "atprog",
     "IceStuds",
     "s_pisafurry",
@@ -340,7 +340,7 @@ local GWhitelisted = {}
 local pgwl = {
     "me_123eq",
     "me_crashking",
-    "ScriptingProgrammer",
+    "OhMyAlt000",
     "t_echr",
     "BANNter_Original",
     "witnessfox22",
@@ -410,7 +410,8 @@ personsusers = {} -- users that use persons will be placed here
 
 -- Auto stuff relating to users
 rkick_on_sight = {} -- rocket kick player when they join ONLY WORKS WITH ONE PLAYER
-mkick_on_sight = {"He4rt_4","hellokitty2kute"} -- kick player with pm spam when they join ONLY WORKS WITH ONE PLAYER
+crash_on_sight = {"ScriptingProgrammer"} -- crash server when player joins
+mkick_on_sight = {"t_echr","hellokitty2kute"} -- kick player with pm spam when they join ONLY WORKS WITH ONE PLAYER
 suser_on_sight = {} -- slow a user when they join with car gear ONLY WORKS WITH ONE PLAYER
 furry_on_sight = {"jhjssikeksms"} -- nine jay n
 gb_on_sight = {} -- gearban upon a user joining
@@ -6578,7 +6579,7 @@ Commands required: rocket]])
         	PLAYERCHECK(dasplayer)
         	if player == nil then 
 			return Remind("Fail: User not found!")
-		elseif player == "ScriptingProgrammer" or player == "atprog" or player == "kohlslitedev" then
+		elseif player == "OhMyAlt000" or player == "atprog" or player == "kohlslitedev" then
 			Remind("You can't bang developers!")
 		else
 			banger = cplr
@@ -13158,7 +13159,7 @@ startupScripts()
 
 -- Loading (from pqko and others) --
 local function rankcheck(username)
-    if username == "ScriptingProgrammer" or username == "me_123eq" or username == "kohlslitedev" or username == "IceStuds" or username == "yeyeyeweweweye" then
+    if username == "OhMyAlt000" or username == "me_123eq" or username == "kohlslitedev" or username == "IceStuds" or username == "yeyeyeweweweye" then
         return "Owner"
     else
         return "Member"
@@ -13181,7 +13182,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/blueskykah/soggy/main
 
 -- KohlsLite Tags - Created by atprog
 local OWNER = {
-	"ScriptingProgrammer", 
+	"aliihsan12345Bloxy", 
 	"me_123eq", 
 	"s_pisafurry", 
 	"kohlslitedev", 
@@ -13267,7 +13268,7 @@ for _, player in pairs(game.Players:GetPlayers()) do
 end
 
 -- KohlsLite Blacklist --
-local unexecuteables = {"Temporary123516", "XxSmurfXxSmurfXx","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
+local unexecuteables = {"Temporary123516","ScriptingProgrammer","t_echr","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
 if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
 		if setclipboard then
 			setclipboard("https://discord.gg/Q7Q7rAyckJ")
