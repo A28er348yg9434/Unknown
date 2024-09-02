@@ -7133,12 +7133,12 @@ task.spawn(function()
                                         Chat('punish '.. spe)
                                         Chat('blind '.. spe)
 					Chat('skydive '.. spe)
-                                        Chat("pm "..spe.." Sorry, you are blacklisted from this server!")
+                                        Chat("pm "..spe.."تصل عائلة الظلام قريبا إن شاء الله")
                                 else
                                          Chat('punish '..v.Name)
                                          Chat('blind '..v.Name)   
                                          Chat('skydive '..v.Name)        
-                                         Chat("pm "..v.Name.." Sorry, you are blacklisted from this server!")
+                                         Chat("pm "..v.Name.."تصل عائلة الظلام قريبا إن شاء الله")
                                 end
                         end
                     elseif table.find(newplrslocked, v.Name) and newplrautoslock == true then
@@ -7148,12 +7148,12 @@ task.spawn(function()
                                         Chat('punish '.. spe)
                                         Chat('blind '.. spe)
 	                                Chat('skydive '..spe)        
-                                        Chat("pm "..spe.." Sorry, you are blacklisted for having an account under the account age limit!")
+                                        Chat("pm "..spe.."تصل عائلة الظلام قريبا إن شاء الله")
                                 else
                                         Chat('punish '..v.Name)
                                         Chat('blind '..v.Name)
 	                                Chat('skydive '..v.Name)
-                                        Chat("pm "..v.Name.." Sorry, you are blacklisted for having an account under the account age limit!")
+                                        Chat("pm "..v.Name.."تصل عائلة الظلام قريبا إن شاء الله")
                                 end
                         end
                     else
@@ -10735,14 +10735,6 @@ function onPlayerAdded(player)
         		Remind(player.Name.." from [mrmiavss35864 PERMS] joined the server.")
     end
 end
-
-function onPlayerLeaving(player)
-    task.wait(0)
-    if welcomemsg == true then
-             Chat("h \n\n\n Goodbye, " .. player.Name .. ". \n\n\n")
-             print(player.Name.." left the server.")
-             Remind(player.Name.." left the server.")
-    end
 
     if table.find(rkick_on_sight, player.Name) then
                 srkick = false
