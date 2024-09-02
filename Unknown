@@ -7,8 +7,8 @@
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░        
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░ v1.73 ]]
 
--- This script was built from the ground up. Unknowns Script is NOT a fork of any other scripts. 
--- Unknowns Script is LIKE a mixture of all the scripts that already exist in KAH such as:
+-- This script was built from the ground up. Unknown is NOT a fork of any other scripts. 
+-- Unknown is LIKE a mixture of all the scripts that already exist in KAH such as:
   -- > CMD (v1)
   -- > CMD Y
   -- > CMD v3
@@ -44,23 +44,23 @@
 -- Notifications
 local function Remind(msg)
         game.StarterGui:SetCore("SendNotification", {
-                Title = "Unknowns Script v1.73",
+                Title = "Unknown v1.73",
                 Text = msg,
                 Duration = 1
         })
 end;
 
--- Check if Unknowns Script is already executed
+-- Check if Unknown is already executed
 if getgenv().kohlsexecuted then 
         return 
-        Remind("You've already executed Unknowns Script!") 
+        Remind("You've already executed Unknown!") 
 end
 
 -- Loader
 if not game:IsLoaded() then
     local notLoaded = Instance.new("Message")
     notLoaded.Parent = game:GetService("CoreGui")
-    notLoaded.Text = "Unknowns Script is waiting for the game to load..."
+    notLoaded.Text = "Unknown is waiting for the game to load..."
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
@@ -74,7 +74,7 @@ if game.PlaceId ~= 112420803 and game.PlaceId ~= 115670532  then
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Unknowns Script Manager",
+			Title = "Unknown Manager",
 			Text = "You are not in Kohls Admin House. Would you like to join KAH [NBC]?",
 			Duration = math.huge,
 			Callback = response,
@@ -91,9 +91,9 @@ checkforkohlspremium = false
 (check for if player has kohls premium gamepass)
 if theydo then
 		checkforkohlspremium = true
-		game.Players.LocalPlayer:Kick("You have Unknowns Script Premium. Execute that.")
+		game.Players.LocalPlayer:Kick("You have Unknown Premium. Execute that.")
 else
-		Remind("Booting Unknowns Script Free...")
+		Remind("Booting Unknown Free...")
 end
 
 -- status (for paid)
@@ -101,9 +101,9 @@ checkforkohlspremium = false
 (check for if player has kohls premium gamepass)
 if theydo then
 		checkforkohlspremium = true
-		Remind("Booting Unknowns Script Premium...")
+		Remind("Booting Unknown Premium...")
 else
-		Remind("You do not have Unknowns Script Premium. Please buy it by dming mrmiavss or use Unknowns Script Premium")
+		Remind("You do not have Unknown Premium. Please buy it by dming mrmiavss or use Unknown Premium")
 end
 	]]
 
@@ -113,10 +113,10 @@ end
 -- Don't touch this!
 getgenv().kohlsexecuted = true
 
--- The prefix you are using for Unknowns Script. This can be of any length.
+-- The prefix you are using for Unknown. This can be of any length.
 getgenv().deprefix = "." 
 
--- The version of Unknowns Script
+-- The version of Unknown
 getgenv().klversion = "1.715"
 
 -- Chat function
@@ -249,7 +249,7 @@ local pwl = {
     "undertaker629",
     "Eggkid7",
     "4g8h",
-    "Unknowns Scriptdev",
+    "Unknowndev",
     "mymostrandomaccount",
     "whatveidone",
     "yeyeyeweweweye"
@@ -297,7 +297,7 @@ local nokick = {
     "Eggkid7",
     "Roblox_girlsfree",
     "4g8h",
-    "Unknowns Scriptdev",
+    "Unknowndev",
     "whatveidone",
     "yeyeyeweweweye"
 }
@@ -311,7 +311,7 @@ local specialperms = {
     "Unknown35864",
    -- "dawninja21",
   --  "dawninja21alt",
-    "Unknowns Scriptdev",
+    "Unknowndev",
     "yeyeyeweweweye"
 }
 
@@ -378,7 +378,7 @@ local pgwl = {
     "undertaker629",
     "Eggkid7",
     "4g8h",
-    "Unknowns Scriptdev",
+    "Unknowndev",
     "mymostrandomaccount",
     "whatveidone",
     "yeyeyeweweweye"
@@ -1153,12 +1153,12 @@ Mover.Moving = false
 Mover.PosSet = false
 
 print("- Information -")
-print("Thank you for using Unknowns Script. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
-Remind("Thank you for using Unknowns Script. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
+print("Thank you for using Unknown. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
+Remind("Thank you for using Unknown. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
 print("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
 Remind("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
 
--- Chat("h \n\n\n Unknowns Script executed! Version: "..getgenv().klversion.." \n\n\n")
+-- Chat("h \n\n\n Unknown executed! Version: "..getgenv().klversion.." \n\n\n")
 
 print("\n\n\n")
 print("- Perm check -")
@@ -1192,7 +1192,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 
 	if msg:sub(1, prefix:len() + 5) == prefix.."newkl" then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/S-PScripts/scripts/main/Luau/KAH/Main%20Scripts/KohlsECO.lua"))()
-		Remind("Loaded Unknowns Script v2 aka KohlsECO")
+		Remind("Loaded Unknown v2 aka KohlsECO")
         end		
 
         if string.sub(msg:lower(), 1, #prefix + 2) == prefix..'iy' then -- the classic
@@ -3756,8 +3756,8 @@ Commands required: rocket]])
             Chat("fix") -- ;Chat(prefix.."perm2")
             musicsay = false
             task.wait(0.5);Chat(prefix.."unantimsg")
-            Chat("h \n\n\n dsc gg Unknowns Script \n\n\n");Chat(prefix.."gmusic100")
-	    Chat(prefix.."byp dsc gg Unknowns Script")
+            Chat("h \n\n\n dsc gg Unknown \n\n\n");Chat(prefix.."gmusic100")
+	    Chat(prefix.."byp dsc gg Unknown")
             Chat("fogcolor 0 0 0");Chat("time 0");Chat("fogend 0");Chat("paint all black")
             task.wait(0.75)
             DCrash()        
@@ -3850,9 +3850,9 @@ Commands required: rocket]])
         for b, c in ipairs(a) do -- it works but i still don't care if it sometimes doesn't bypass!
                     local e = string.rep("  ", 2 * (b - 1))
                 if haspersons == true then
-                        Chat("h/Unknowns Script ez\n\n\n\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
+                        Chat("h/Unknown ez\n\n\n\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
                 else
-                            Chat("h Unknowns Script ez\n\n\n\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
+                            Chat("h Unknown ez\n\n\n\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
                 end
         end
     end
@@ -3871,9 +3871,9 @@ Commands required: rocket]])
 			for i, char in ipairs(chars) do
     				local spaces = string.rep(" ", (i-1) * 4)
 	               		if haspersons == true then
-    					Chat("h/Unknowns Script ez\n\n\n\n\n\n\n\n\n\n" .. spaces .. char)
+    					Chat("h/Unknown ez\n\n\n\n\n\n\n\n\n\n" .. spaces .. char)
 				else
-					Chat("h Unknowns Script ez\n\n\n\n\n\n\n\n\n\n" .. spaces .. char)
+					Chat("h Unknown ez\n\n\n\n\n\n\n\n\n\n" .. spaces .. char)
 				end
 			end
     end
@@ -6384,7 +6384,7 @@ Commands required: rocket]])
     end
 
     if string.sub(msg:lower(), 1, #prefix + 6) == prefix..'devcmd' then
-		Remind("Unknowns Script is working!")
+		Remind("Unknown is working!")
     end
 
     if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'discord' then
@@ -6547,7 +6547,7 @@ Commands required: rocket]])
         	PLAYERCHECK(dasplayer)
         	if player == nil then 
 			return Remind("Fail: User not found!")
-		elseif player == "OhMyAlt000" or player == "aliihasn12345" or player == "Unknowns Scriptdev" then
+		elseif player == "OhMyAlt000" or player == "aliihasn12345" or player == "Unknowndev" then
 			Remind("You can't bang developers!")
 		else
 			banger = cplr
@@ -7017,7 +7017,7 @@ end
 
 function CMDPrint()
 	GExecute("https://gist.githubusercontent.com/S-PScripts/86b332526c70fe7c9585bddd3e58101c/raw/7f3bb1759ab1e1d4a5178390796f6852f2304369/KL%2520CMD%2520LIST.lua")
-	print("newkl - loads KohlsECO (Unknowns Script v2). This is not updated anymore since I decided to revive KL v1.")
+	print("newkl - loads KohlsECO (Unknown v2). This is not updated anymore since I decided to revive KL v1.")
 end
 
 -- Serverlock, blacklist, whitelist (not that good but decent still)
@@ -8204,19 +8204,19 @@ end)
 
 -- AD
 function ADVERTISEMENT()
-        Speak("Unknowns Script is a very 'cool' KAH Script.")
+        Speak("Unknown is a very 'cool' KAH Script.")
         task.wait(1)
         Speak("Get it at script blox: search CMD LITE")
         task.wait(1)
-        Speak("dm ts 2021 to join the Unknowns Script server or check the logs")
+        Speak("dm ts 2021 to join the Unknown server or check the logs")
         if haspersons == true then
-                Chat("m/ \n\n\n dsc gg Unknowns Script \n\n\n")
-                Chat("h/ \n\n\n dsc gg Unknowns Script \n\n\n")
-		Chat("ff dsc gg Unknowns Script")
+                Chat("m/ \n\n\n dsc gg Unknown \n\n\n")
+                Chat("h/ \n\n\n dsc gg Unknown \n\n\n")
+		Chat("ff dsc gg Unknown")
         else
-                Chat("m \n\n\n dsc gg Unknowns Script \n\n\n")
-                Chat("h \n\n\n dsc gg Unknowns Script \n\n\n")
-		Chat("ff dsc gg Unknowns Script")
+                Chat("m \n\n\n dsc gg Unknown \n\n\n")
+                Chat("h \n\n\n dsc gg Unknown \n\n\n")
+		Chat("ff dsc gg Unknown")
 
         end
 end
@@ -8226,14 +8226,14 @@ function CADVERTISEMENT()
         task.wait(1)
         Speak("dm ts 2021 to join the kah community server or check the logs")
         if haspersons == true then
-                Chat("m/ \n\n\n dsc gg Unknowns Script \n\n\n")
-                Chat("h/ \n\n\n dsc gg Unknowns Script \n\n\n")
-		Chat("ff dsc gg Unknowns Script")
+                Chat("m/ \n\n\n dsc gg Unknown \n\n\n")
+                Chat("h/ \n\n\n dsc gg Unknown \n\n\n")
+		Chat("ff dsc gg Unknown")
 
         else
-                Chat("m \n\n\n dsc gg Unknowns Script \n\n\n")
-                Chat("h \n\n\n dsc gg Unknowns Script \n\n\n")
-		Chat("ff dsc gg Unknowns Script")
+                Chat("m \n\n\n dsc gg Unknown \n\n\n")
+                Chat("h \n\n\n dsc gg Unknown \n\n\n")
+		Chat("ff dsc gg Unknown")
         end
 end
 
@@ -8246,7 +8246,7 @@ function PtSH()
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Unknowns Script Manager",
+			Title = "Unknown Manager",
 			Text = "This server is crashed. Would you like to serverhop?",
 			Duration = math.huge,
 			Callback = response,
@@ -8505,7 +8505,7 @@ function PLRSTART(v)
 
                     if string.sub(msg:lower(), 0, 4) == "-klc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
                         if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
-                            Speak("I use Unknowns Script!")
+                            Speak("I use Unknown!")
                         end
                     end
 
@@ -8524,7 +8524,7 @@ function PLRSTART(v)
                     if string.sub(msg:lower(), 0, 4) == "-klk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
                         if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
                             pcall(function()
-                                    game.Players.LocalPlayer:Kick("A Unknowns Script dev kicked you from the game!")
+                                    game.Players.LocalPlayer:Kick("A Unknown dev kicked you from the game!")
                             end)
                         end
                     end
@@ -8539,13 +8539,13 @@ function PLRSTART(v)
 
                     if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
                         if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
-                            Remind("You have been warned by a Unknowns Script dev!")
+                            Remind("You have been warned by a Unknown dev!")
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(aliihasn12345perms, v.Name) then
                         if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(aliihasn12345perms, game.Players.LocalPlayer.Name) then
-                            Remind("You have been warned by a Unknowns Script collaborator!")
+                            Remind("You have been warned by a Unknown collaborator!")
                         end
                     end
 
@@ -9051,7 +9051,7 @@ end)
 -- LOG SPAM
 function LogSpam()
       for i = 1,50 do
-          Chat("reset Unknowns Script ON BOTTOM - mrmiavss, 2024")
+          Chat("reset Unknown ON BOTTOM - mrmiavss, 2024")
           Chat("reset PR SCRIPT ON TOP - aliihasn12345, 2024")
       end
 end
@@ -10642,14 +10642,14 @@ function onPlayerAdded(player)
     end
 
     if table.find(specialperms, player.Name) then
-		        Chat("h \n\n\n ".. player.Name .. " [Unknowns Script Dev] joined the server! \n\n\n")
-			print(player.Name.." [Unknowns Script Dev] joined the server.")
-        		Remind(player.Name.." [Unknowns Script Dev] joined the server.")
+		        Chat("h \n\n\n ".. player.Name .. " [Unknown Dev] joined the server! \n\n\n")
+			print(player.Name.." [Unknown Dev] joined the server.")
+        		Remind(player.Name.." [Unknown Dev] joined the server.")
     end
 
     if table.find(aliihasn12345perms, player.Name) then
-			Chat("h \n\n\n ".. player.Name .. " [Unknowns Script Dev] joined the server! \n\n\n")
-			print(player.Name.." [Unknowns Script Dev] joined the server.")
+			Chat("h \n\n\n ".. player.Name .. " [Unknown Dev] joined the server! \n\n\n")
+			print(player.Name.." [Unknown Dev] joined the server.")
         		Remind(player.Name.." from [aliihasn12345 PERMS] joined the server.")
     end
 end
@@ -11491,7 +11491,7 @@ function SpHammer()
 		print("color - paints the player a random color")
 		print("duck - quack quack")
 
-		print("- Script by iiDk, ported for Unknowns Script. -")
+		print("- Script by iiDk, ported for Unknown. -")
 
         end
         
@@ -11656,25 +11656,25 @@ Connections.cannoning = nil
 
 musiclog = {}
 
-KL_FOLDER = "Unknowns Script"
+KL_FOLDER = "Unknown"
 if writefile and readfile then
 	if isfolder(KL_FOLDER) then
 		-- placeholder text uwu
 	else
-		makefolder("Unknowns Script")
+		makefolder("Unknown")
 		print("\n\n\n")
-		print("Created the Unknowns Script folder! You can find in your workspace.")
-		local file_welcome = "Unknowns Script/Welcome.txt"
-		local file_text = "Thank you for using Unknowns Script! If you need help, please DM me at mrmiavss." --
+		print("Created the Unknown folder! You can find in your workspace.")
+		local file_welcome = "Unknown/Welcome.txt"
+		local file_text = "Thank you for using Unknown! If you need help, please DM me at mrmiavss." --
 		writefile(KL_FOLDER,file_text)
 
 -- ye this will be da new feature wowoo
 -- don't have windows pc to do it rn maybe 2025 guys
 --[[
 
-		local file_blacklist = "Unknowns Script/Blacklisted.txt"
-		local file_whitelist = "Unknowns Script/Whitelisted.txt"
-		local file_gearwhitelist = "Unknowns Script/Gear whitelist.txt"
+		local file_blacklist = "Unknown/Blacklisted.txt"
+		local file_whitelist = "Unknown/Whitelisted.txt"
+		local file_gearwhitelist = "Unknown/Gear whitelist.txt"
 
 		local file_bltext = "user etc etc"
 		-- this would be the new way of perm whitelist/blacklist/gearwhitelist
@@ -11697,7 +11697,7 @@ task.spawn(function()
 					if writefile and readfile then -- dizzy momento
 	    					local cd = os.date("%Y-%m-%d %H:%M:%S") -- current date
     						local logdsc = "Audio was detected at: [".. cd .. "] \n The music id was: [" .. nmusicid .. "] \n The music file was: [".. musicid .."]\n" -- alog text
-   						local file = "Unknowns Script/AudioLogger.txt" -- file name
+   						local file = "Unknown/AudioLogger.txt" -- file name
     						local text = "" 
 	
     						if isfile(file) then -- if the kl alog file already exists, it will make the text variable have the alog text
@@ -13078,7 +13078,7 @@ startupScripts()
 
 -- Loading (from pqko and others) --
 local function rankcheck(username)
-    if username == "OhMyAlt000" or username == "me_123eq" or username == "Unknowns Scriptdev" or username == "Unknown35864" or username == "yeyeyeweweweye" then
+    if username == "OhMyAlt000" or username == "me_123eq" or username == "Unknowndev" or username == "Unknown35864" or username == "yeyeyeweweweye" then
         return "Owner"
     else
         return "Member"
@@ -13099,12 +13099,12 @@ print("Your rank is: " .. Stats.rank)
 -- Don't leak it method my boy ...
 loadstring(game:HttpGet("https://raw.githubusercontent.com/blueskykah/soggy/main/for%20atpoop"))()
 
--- Unknowns Script Tags - Created by aliihasn12345
+-- Unknown Tags - Created by aliihasn12345
 local OWNER = {
 	"OhMyAlt000", 
 	"me_123eq", 
 	"aliihsan12345isafurry", 
-	"Unknowns Scriptdev", 
+	"Unknowndev", 
 	"Unknown35864", 
         "yeyeyeweweweye"
 }
@@ -13186,14 +13186,14 @@ for _, player in pairs(game.Players:GetPlayers()) do
     addGuiToPlayer(player)
 end
 
--- Unknowns Script Blacklist --
+-- Unknown Blacklist --
 local unexecuteables = {"atprog","t_echr","ScriptingProgrammer","kjnjsknsdgkgnfgkjknf","NOTAVIRTUALMACHINE15"}
 if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
 		if setclipboard then
 			setclipboard("https://discord.gg/Q7Q7rAyckJ")
 		end
                 pcall(function() -- thanks tech
-		        game.Players.LocalPlayer:Kick("[Unknowns Script]: You have been blacklisted from Unknowns.
+		        game.Players.LocalPlayer:Kick("[Unknown]: You have been blacklisted from Unknowns.
                 end)
                 task.wait(2.5); while true do end
 end
@@ -13208,5 +13208,5 @@ Things to add/fix. Feel free to fix these and send the code and I'll credit you
 -> can't fix these until i get a windows Pc, this might be a long time... ;(
 ]]
 
--- Unknowns Script on top
--- Information about Unknowns Script is at the top of the script
+-- Unknown on top
+-- Information about Unknown is at the top of the script
