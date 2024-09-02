@@ -3076,12 +3076,12 @@ Commands required: rocket]])
     end
 
     if string.sub(msg:lower(), 1, #prefix + 6) == prefix..'welmsg' then
-        welcomemsg = true
+        welcomemsg = false
 	Remind("The welcome/leaving message has been enabled.")
     end
 
     if string.sub(msg:lower(), 1, #prefix + 8) == prefix..'unwelmsg' then
-        welcomemsg = false
+        welcomemsg = true
 	Remind("The welcome/leaving message has been disabled.")
     end
 
