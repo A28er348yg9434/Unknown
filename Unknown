@@ -29,7 +29,7 @@
 
 -- This free, open-source script is for the Roblox game Kohls Admin House (KAH)
 -- You can play KAH here: https://www.roblox.com/games/112420803/Kohls-Admin-House-NBC-Updated
--- Created by aliihsan12345 (Roblox) / ts2021 (Discord) / S-PScripts (GitHub)
+-- Created by aliihsan12345 (Roblox) / Unknown (Discord) / S-PScripts (GitHub)
 
 -- There are no more watermarks in this script.
 
@@ -103,7 +103,7 @@ if theydo then
 		checkforkohlspremium = true
 		Remind("Booting KohlsLite Premium...")
 else
-		Remind("You do not have KohlsLite Premium. Please buy it by dming ts2021 or use KohlsLite Premium")
+		Remind("You do not have KohlsLite Premium. Please buy it by dming Unknown or use KohlsLite Premium")
 end
 	]]
 
@@ -1158,8 +1158,8 @@ Mover.PosSet = false
 print("- Information -")
 print("Thank you for using KohlsLite. The version you are using is v"..getgenv().klversion..". This script was created by S_P.")
 Remind("Thank you for using KohlsLite. The version you are using is v"..getgenv().klversion..". This script was created by S_P.")
-print("Say .kcmds to list some of the commands. DM me at ts2021 for help.")
-Remind("Say .kcmds to list some of the commands. DM me at ts2021 for help.")
+print("Say .kcmds to list some of the commands. DM me at Unknown for help.")
+Remind("Say .kcmds to list some of the commands. DM me at Unknown for help.")
 
 -- Chat("h \n\n\n KohlsLite executed! Version: "..getgenv().klversion.." \n\n\n")
 
@@ -3797,7 +3797,7 @@ Commands required: rocket]])
     end
   
     if string.sub(msg:lower(), 1, #prefix + 7) == prefix..'dicrash' then
-	    musicsay = false -- na ts2021 forgot this jit tripping - from ts2021
+	    musicsay = false -- na Unknown forgot this jit tripping - from Unknown
             Chat(prefix.."gchar all itgeLsmeeS");Chat(prefix.."gmusic62");Chat("h \n\n\n all praise dionte \n\n\n");Chat("name all itgeLsmeeS is our hero")
 	    task.wait(1.5)
 	    DCrash()
@@ -9133,7 +9133,7 @@ end)
 -- LOG SPAM
 function LogSpam()
       for i = 1,50 do
-          Chat("reset KOHLSLITE ON BOTTOM - ts2021, 2024")
+          Chat("reset KOHLSLITE ON BOTTOM - Unknown, 2024")
           Chat("reset PR SCRIPT ON TOP - Unknown35864, 2024")
       end
 end
@@ -11747,7 +11747,7 @@ if writefile and readfile then
 		print("\n\n\n")
 		print("Created the KohlsLite folder! You can find in your workspace.")
 		local file_welcome = "KohlsLite/Welcome.txt"
-		local file_text = "Thank you for using KohlsLite! If you need help, please DM me at ts2021." --
+		local file_text = "Thank you for using KohlsLite! If you need help, please DM me at Unknown." --
 		writefile(KL_FOLDER,file_text)
 
 -- ye this will be da new feature wowoo
