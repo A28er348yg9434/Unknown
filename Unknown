@@ -114,7 +114,7 @@ end
 getgenv().kohlsexecuted = true
 
 -- The prefix you are using for III. This can be of any length.
-getgenv().deprefix = "//" 
+getgenv().deprefix = "." 
 
 -- The version of III
 getgenv().klversion = "1.715"
