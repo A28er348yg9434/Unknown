@@ -187,6 +187,7 @@ end
 
 -- Serverlocked users
 local blacklist = {
+    "o_Xcve",
     "nutsnyourmouth",
     "Boogerpooppee_Fart",
     "Xaverlyi",
