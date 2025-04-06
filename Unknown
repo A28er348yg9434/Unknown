@@ -187,10 +187,6 @@ end
 
 -- Serverlocked users
 local blacklist = {
-    "o_Xcve",
-    "nutsnyourmouth",
-    "Boogerpooppee_Fart",
-    "Xaverlyi",
     "EvaisShook",
     "phildude21",
     "BounceDatMeatJuice33",
@@ -3462,7 +3458,7 @@ Commands required: rocket]])
                     Chat("tp "..person.." me")
                 task.wait(0.8)
                 Speak("SMACK!")
-                    Chat("-point")
+                    Chat("/e point")
                     Chat("fling "..person)
                 task.wait(1.45)
                 Chat("explode "..person)
@@ -8688,7 +8684,7 @@ function PLRSTART(v)
                     Chat("pm " .. v.Name .. " Please use commands without the : prefix. Thanks!")
                 end
 
-                if string.sub(command, 1, 1) == "/" then -- because -dance
+                if string.sub(command, 1, 1) == "/" then -- because /e dance
                     command = ""
                 end
 
@@ -11169,7 +11165,7 @@ function DumbGuy()
         wait(1)
         boomba:Destroy()
         Speak("That's you!")
-        Chat("-point");task.wait(0.9)
+        Chat("/e point");task.wait(0.9)
         Speak("That's how dumb you sound!");task.wait(1)
         Chat("music nan")
         Chat("speed "..dummy.." 16")
@@ -11622,7 +11618,7 @@ function SpHammer()
 			        Chat("tp "..p.Parent.Name.." me")
 			        spawn(function()
 			            wait(0.8)
-			            Chat("-point")
+			            Chat("/e point")
 			            wait(0.1)
 			            Chat("fling "..p.Parent.Name)
 			        end)
