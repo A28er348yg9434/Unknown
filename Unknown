@@ -114,7 +114,7 @@ end
 getgenv().kohlsexecuted = true
 
 -- The prefix you are using for III. This can be of any length.
-getgenv().deprefix = "/e " 
+getgenv().deprefix = "-" 
 
 -- The version of III
 getgenv().klversion = "1.715"
@@ -1161,8 +1161,8 @@ Mover.PosSet = false
 print("- Information -")
 print("Thank you for using III. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
 Remind("Thank you for using III. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
-print("Say /e kcmds to list some of the commands. DM me at mrmiavss for help.")
-Remind("Say /e kcmds to list some of the commands. DM me at mrmiavss for help.")
+print("Say -kcmds to list some of the commands. DM me at mrmiavss for help.")
+Remind("Say -kcmds to list some of the commands. DM me at mrmiavss for help.")
 
 -- Chat("h \n\n\n III executed! Version: "..getgenv().klversion.." \n\n\n")
 
@@ -3461,7 +3461,7 @@ Commands required: rocket]])
                     Chat("tp "..person.." me")
                 task.wait(0.8)
                 Speak("SMACK!")
-                    Chat("/e point")
+                    Chat("-point")
                     Chat("fling "..person)
                 task.wait(1.45)
                 Chat("explode "..person)
@@ -8687,7 +8687,7 @@ function PLRSTART(v)
                     Chat("pm " .. v.Name .. " Please use commands without the : prefix. Thanks!")
                 end
 
-                if string.sub(command, 1, 1) == "/" then -- because /e dance
+                if string.sub(command, 1, 1) == "/" then -- because -dance
                     command = ""
                 end
 
@@ -11168,7 +11168,7 @@ function DumbGuy()
         wait(1)
         boomba:Destroy()
         Speak("That's you!")
-        Chat("/e point");task.wait(0.9)
+        Chat("-point");task.wait(0.9)
         Speak("That's how dumb you sound!");task.wait(1)
         Chat("music nan")
         Chat("speed "..dummy.." 16")
@@ -11621,7 +11621,7 @@ function SpHammer()
 			        Chat("tp "..p.Parent.Name.." me")
 			        spawn(function()
 			            wait(0.8)
-			            Chat("/e point")
+			            Chat("-point")
 			            wait(0.1)
 			            Chat("fling "..p.Parent.Name)
 			        end)
