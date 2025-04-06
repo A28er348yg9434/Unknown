@@ -114,7 +114,7 @@ end
 getgenv().kohlsexecuted = true
 
 -- The prefix you are using for III. This can be of any length.
-getgenv().deprefix = "/e " 
+getgenv().deprefix = "." 
 
 -- The version of III
 getgenv().klversion = "1.715"
@@ -1161,8 +1161,8 @@ Mover.PosSet = false
 print("- Information -")
 print("Thank you for using III. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
 Remind("Thank you for using III. The version you are using is v"..getgenv().klversion..". This script was created by aliihsan12345.")
-print("Say /e kcmds to list some of the commands. DM me at mrmiavss for help.")
-Remind("Say /e kcmds to list some of the commands. DM me at mrmiavss for help.")
+print("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
+Remind("Say .kcmds to list some of the commands. DM me at mrmiavss for help.")
 
 -- Chat("h \n\n\n III executed! Version: "..getgenv().klversion.." \n\n\n")
 
