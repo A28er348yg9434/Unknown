@@ -187,6 +187,7 @@ end
 
 -- Serverlocked users
 local blacklist = {
+    "RobloxWarrior232",
     "The_realfaznear2",
     "o_Xcve",
     "Xaverlyi",
