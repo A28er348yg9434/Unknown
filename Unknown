@@ -187,6 +187,7 @@ end
 
 -- Serverlocked users
 local blacklist = {
+    "ItsMyGamingSocks2",
     "souleythegamer12",
     "kingof_halalbacons",
     "RobloxWarrior232",
