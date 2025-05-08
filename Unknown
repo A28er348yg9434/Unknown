@@ -187,7 +187,6 @@ end
 
 -- Serverlocked users
 local blacklist = {
-    "foolish_motherboard",
     "Rambo_oftowerbattles",
     "KatharinasAlt",
     "rtmdsa43",
